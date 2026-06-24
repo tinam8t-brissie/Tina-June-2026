@@ -2,6 +2,24 @@
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "id" : "https://tinam8t-brissie.github.io/Tina-June-2026/manifests/manifest2.json",
   "type" : "Manifest",
+  "structures": [
+    {
+        "id": "http://example.org/iiif/book1/range/top",
+        "type": "Range",
+        "label": "Table of Content",
+        "viewingHint": "top",
+        "ranges": [
+            {
+                "id": "http://example.org/iiif/book1/range/intro",
+                "type": "Range",
+                "label": "Introduction",
+                "canvases": [
+                    "https://example.org/mgck2eaxj3-mqrygz2n/canvas/8uh6i73wkjm-mqryojaz"
+                ]
+            }
+        ]
+    }
+],
   "rights" : "http://creativecommons.org/licenses/by-nc-sa/4.0/",
   "behavior" : [ [ "auto-advance", "individuals" ] ],
   "requiredStatement" : {
