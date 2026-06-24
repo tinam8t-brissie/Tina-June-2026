@@ -19,6 +19,21 @@
             }
         ]
     }
+    "id": "http://example.org/iiif/book1/range/top",
+        "type": "Range",
+        "label": "Table of Content",
+        "viewingHint": "top",
+        "ranges": [
+            {
+                "id": "http://example.org/iiif/book1/range/intro",
+                "type": "Range",
+                "label": "Introduction",
+                "canvases": [
+                    "https://iiif.archive.org/image/iiif/2/img-8051_202606%2fIMG_8051.jpeg/full/378,/0/default.jpg"
+                ]
+            }
+        ]
+    }
 ],
   "rights" : "http://creativecommons.org/licenses/by-nc-sa/4.0/",
   "behavior" : [ [ "auto-advance", "individuals" ] ],
