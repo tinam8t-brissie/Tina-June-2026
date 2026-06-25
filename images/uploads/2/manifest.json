@@ -1,0 +1,343 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/mgck2eaxj3-mqrygz2n",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Tina in the Netherlands"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Author"
+        ]
+      },
+      "value": {
+        "en": [
+          "Tina Macht"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Description"
+        ]
+      },
+      "value": {
+        "en": [
+          "Collection of images"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "https://example.org/mgck2eaxj3-mqrygz2n/canvas/8uh6i73wkjm-mqryojaz",
+      "type": "Canvas",
+      "height": 4032,
+      "width": 3024,
+      "label": {
+        "en": [
+          "Netherlands_1"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Author"
+            ]
+          },
+          "value": {
+            "en": [
+              "Tina"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Location"
+            ]
+          },
+          "value": {
+            "en": [
+              "Utrecht"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://iiif.archive.org/image/iiif/2/img-8051_202606%2fIMG_8051.jpeg/full/378,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 504,
+          "width": 378
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/mgck2eaxj3-mqrygz2n/canvas/8uh6i73wkjm-mqryojaz/annotation-page/8vwkx63c48i-mqryojaz",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/mgck2eaxj3-mqrygz2n/annotation/g2qxd51mpk-mqryojay",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/mgck2eaxj3-mqrygz2n/canvas/8uh6i73wkjm-mqryojaz",
+              "body": {
+                "id": "https://iiif.archive.org/image/iiif/2/img-8051_202606%2fIMG_8051.jpeg/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 4032,
+                "width": 3024,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.archive.org/image/iiif/2/img-8051_202606%2fIMG_8051.jpeg",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 3024,
+                    "height": 4032,
+                    "sizes": [
+                      {
+                        "width": 95,
+                        "height": 126
+                      },
+                      {
+                        "width": 189,
+                        "height": 252
+                      },
+                      {
+                        "width": 378,
+                        "height": 504
+                      },
+                      {
+                        "width": 756,
+                        "height": 1008
+                      },
+                      {
+                        "width": 1512,
+                        "height": 2016
+                      },
+                      {
+                        "width": 3024,
+                        "height": 4032
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "profile": [
+                      "http://iiif.io/api/image/2/level2.json",
+                      {
+                        "formats": [
+                          "tif",
+                          "jpg",
+                          "gif",
+                          "png"
+                        ],
+                        "maxArea": 12192768,
+                        "qualities": [
+                          "bitonal",
+                          "default",
+                          "gray",
+                          "color"
+                        ],
+                        "supports": [
+                          "regionByPx",
+                          "sizeByW",
+                          "sizeByWhListed",
+                          "cors",
+                          "regionSquare",
+                          "sizeByDistortedWh",
+                          "canonicalLinkHeader",
+                          "sizeByConfinedWh",
+                          "sizeByPct",
+                          "jsonldMediaType",
+                          "regionByPct",
+                          "rotationArbitrary",
+                          "sizeByH",
+                          "baseUriRedirect",
+                          "rotationBy90s",
+                          "profileLinkHeader",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "mirroring"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/mgck2eaxj3-mqrygz2n/canvas/3y0ifmq30mh-mqryu6ro",
+      "type": "Canvas",
+      "height": 2613,
+      "width": 4658,
+      "label": {
+        "en": [
+          "Netherlands_2"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://images.collections.yale.edu/iiif/2/ycba:209a98f4-dce8-4948-bade-79a9ab6eb848/full/291,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 163,
+          "width": 291
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/mgck2eaxj3-mqrygz2n/canvas/3y0ifmq30mh-mqryu6ro/annotation-page/vk0itj5b86h-mqryu6ro",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/mgck2eaxj3-mqrygz2n/annotation/mws62z982u-mqryu6ro",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/mgck2eaxj3-mqrygz2n/canvas/3y0ifmq30mh-mqryu6ro",
+              "body": {
+                "id": "https://images.collections.yale.edu/iiif/2/ycba:209a98f4-dce8-4948-bade-79a9ab6eb848/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2613,
+                "width": 4658,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://images.collections.yale.edu/iiif/2/ycba:209a98f4-dce8-4948-bade-79a9ab6eb848",
+                    "height": 2613,
+                    "metadata": {
+                      "caption": "recto, cropped to image",
+                      "source": "Yale Center for British Art",
+                      "imageCredit": "Digital Image: Yale Center for British Art"
+                    },
+                    "profile": [
+                      "http://iiif.io/api/image/2/level2.json",
+                      {
+                        "formats": [
+                          "jpg",
+                          "tif",
+                          "gif",
+                          "png"
+                        ],
+                        "qualities": [
+                          "bitonal",
+                          "default",
+                          "gray",
+                          "color"
+                        ],
+                        "supports": [
+                          "regionByPx",
+                          "sizeByW",
+                          "sizeByWhListed",
+                          "cors",
+                          "regionSquare",
+                          "sizeByDistortedWh",
+                          "sizeAboveFull",
+                          "canonicalLinkHeader",
+                          "sizeByConfinedWh",
+                          "sizeByPct",
+                          "jsonldMediaType",
+                          "regionByPct",
+                          "rotationArbitrary",
+                          "sizeByH",
+                          "baseUriRedirect",
+                          "rotationBy90s",
+                          "profileLinkHeader",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "mirroring"
+                        ]
+                      }
+                    ],
+                    "protocol": "http://iiif.io/api/image",
+                    "sizes": [
+                      {
+                        "height": 82,
+                        "width": 146
+                      },
+                      {
+                        "height": 163,
+                        "width": 291
+                      },
+                      {
+                        "height": 327,
+                        "width": 582
+                      },
+                      {
+                        "height": 653,
+                        "width": 1165
+                      },
+                      {
+                        "height": 1307,
+                        "width": 2329
+                      },
+                      {
+                        "height": 2613,
+                        "width": 4658
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ],
+                        "width": 512
+                      }
+                    ],
+                    "width": 4658
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "navPlace": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5.121292,
+            52.090642
+          ]
+        }
+      }
+    ]
+  }
+}
