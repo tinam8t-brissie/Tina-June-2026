@@ -11,5 +11,11 @@
       "en" : [ "Tina in the Netherlands" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://tinam8t-brissie.github.io/Tina-June-2026/manifests/manifest.json",
+    "label" : {
+      "en" : [ "Tina in the Netherlands" ]
+    },
+    "type" : "Manifest"
   } ]
 }
